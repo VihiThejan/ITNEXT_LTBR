@@ -118,18 +118,21 @@
 @media (max-width: 768px) {
   .hero {
     padding: 6rem 1rem 3rem;
+    min-height: 100vh;
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.3;
   }
   
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   .hero-description {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
   
   .hero-actions {
@@ -137,11 +140,29 @@
     gap: 1rem;
   }
   
+  .hero-actions button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
   .hero-stats {
-    gap: 2rem;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stat-item {
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5rem 2rem;
+    min-width: auto;
   }
   
   .stat-item h3 {
     font-size: 2rem;
+  }
+  
+  .stat-item p {
+    font-size: 0.9rem;
   }
 }
