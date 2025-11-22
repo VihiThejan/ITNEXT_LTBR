@@ -43,7 +43,7 @@ const Newsletter = () => {
         <div className="cta-container">
           <h2 className="cta-title">Ready to Launch Your IT Career?</h2>
           <p className="cta-description">
-            Join over 15,000 professionals who transformed their careers through our complete talent development platform. 
+            Join over 15,000 professionals who transformed their careers through our complete talent development cloud. 
             We don't just teach - we Learn, Train, Build, and Recruit until you're successfully placed in your dream IT role.
           </p>
           <div className="cta-actions">

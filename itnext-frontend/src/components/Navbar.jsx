@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-brand">
           <img src="/logo.png" alt="ITNEXT Logo" className="navbar-logo" />
-          <span className="navbar-title">Talent Development Platform</span>
+          <span className="navbar-title">Talent Development Cloud</span>
         </div>
         <div className="navbar-menu">
           <a href="#services" className="nav-link">Services</a>

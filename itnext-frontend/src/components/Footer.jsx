@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="footer-section footer-brand-section">
             <div className="footer-brand">
               <img src="/logo.png" alt="ITNEXT Logo" className="footer-logo" />
-              <h3>Talent Development Platform</h3>
+              <h3>Talent Development Cloud</h3>
             </div>
             <p className="footer-description">
-              Revolutionary talent development platform transforms IT professionals through AI-powered learning, 
+              Revolutionary talent development cloud transforms IT professionals through AI-powered learning, 
               immersive training, and guaranteed job placement. Your career, powered by intelligence.
             </p>
             <div className="footer-social">
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Talent Development Platform. All rights reserved. Transforming careers through intelligent technology.</p>
+          <p>&copy; 2024 Talent Development Cloud. All rights reserved. Transforming careers through intelligent technology.</p>
           <div className="footer-links">
             <a href="#privacy">Privacy Policy</a>
             <a href="#terms">Terms of Service</a>
